@@ -25,16 +25,17 @@ patch:
     - schema: wubi86_jidian_trad        # 五笔 - 简入繁出
     - schema: wubi86_jidian_trad_pinyin # 五笔拼音混输 - 简入繁出
     - schema: pinyin_simp               # 普通拼音
+    - schema: clover          # 普四叶草拼音
 
   # Menu
   menu:
-    page_size: 5                    # 候选词数量，最多支持 10 个
+    page_size: 6                    # 候选词数量，最多支持 10 个
   switcher:
     hotkeys:        # 弹出菜单的快捷键
       - F4
-      - Control+grave
-      - Control+Shift+grave
-      - Alt+grave
+      - "Control+grave"
+      - "Control+Shift+grave"
+      - "Alt+grave"
     ave_options:  # 开关记忆（方案中的 switches），从方案选单（而非快捷键）切换时会记住的选项，需要记忆的开关不能设定 reset
       - ascii_punct
       - traditionalization

@@ -9,6 +9,7 @@ schema:
   version: "2025-03-30"
   author:
     - Dvel
+  icon: "rime-ice.ico"
   description: |
     雾凇拼音
     https://github.com/iDvel/rime-ice

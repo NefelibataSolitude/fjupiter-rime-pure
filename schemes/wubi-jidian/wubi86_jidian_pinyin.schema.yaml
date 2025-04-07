@@ -11,7 +11,9 @@ schema:
   description: |
     五笔字形 86 极点极爽版，方案由 KyleBing 修改 - 2019年11月08日 10:26
   dependencies:
-    - rice-ice
+    - rime_ice
+    # - pinyin_simp
+    # - clover
 
 switches:
   - name: full_shape
@@ -67,7 +69,7 @@ abc_segmentor:
     - reverse_lookup
 
 reverse_lookup:
-  dictionary: rice-ice
+  dictionary: rime_ice  # pinyin_simp  clover
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
